@@ -5,7 +5,28 @@
 //  saludarGritando('Ada', 'Lovelace') 
 // ¡Hola Ada Lovelace, un gusto conocerte!
 
-const saludarGritando = (nombre,apellido) => {
-    return ("¡Hola "+ nombre + " "+ apellido + ", un gusto conocerte!")
+let nombre = "Ada";
+let apellido = "Lovelace";
+
+const gritar = (nombre) => {
+    return ("¡" + nombre + "!")
+}
+
+const obtenerNombreCompleto = (nombre , apellido) => {
+    return (nombre + " " + apellido);
+}
+
+const nombrecompleto = obtenerNombreCompleto (); 
+
+
+const saludar = (nombre) => {
+    return ('Hola '+ nombre + ', un gusto conocerte')
+}
+
+
+const saludarGritando = (nombre, apellido) => {
+    return gritar (saludar (obtenerNombreCompleto (nombre, apellido)))
 } 
+
+saludarGritando ('Ada', 'Lovelace') ;
 
