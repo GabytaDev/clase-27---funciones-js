@@ -20,16 +20,16 @@ let normal = 5;
 let dificil= 10;
 
 
-const calcularPuntaje = (num1, puntaje2, puntaje3) =>{
-    
 
-    return puntajeTotal ((puntaje1 * facil) + (puntaje2 * normal) + (puntaje3 * dificil))
+const calcularPuntaje = (num1, num2, num3) =>{
+ 
+    return (num1 * 3) + (num2 * 5)  + (num3 * 10);
    
 }
 
 
- calcularPuntaje(3, 0, 0) 
+calcularPuntaje(3, 0, 0); 
 
- calcularPuntaje(0, 2, 1) 
+calcularPuntaje(0, 2, 1);
 
- calcularPuntaje(5, 1, 2)
+calcularPuntaje(5, 1, 2);
