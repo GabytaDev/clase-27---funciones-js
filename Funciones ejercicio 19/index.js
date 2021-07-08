@@ -33,3 +33,6 @@ calcularPuntaje(3, 0, 0);
 calcularPuntaje(0, 2, 1);
 
 calcularPuntaje(5, 1, 2);
+
+
+  
